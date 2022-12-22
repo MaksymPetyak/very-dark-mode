@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/very-dark-mode/static/css/main.9649b46a.css",
+    "main.js": "/very-dark-mode/static/js/main.a46a6548.js",
+    "index.html": "/very-dark-mode/index.html",
+    "main.9649b46a.css.map": "/very-dark-mode/static/css/main.9649b46a.css.map",
+    "main.a46a6548.js.map": "/very-dark-mode/static/js/main.a46a6548.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9649b46a.css",
+    "static/js/main.a46a6548.js"
+  ]
+}
