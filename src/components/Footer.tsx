@@ -40,7 +40,7 @@ export const Footer = () => {
             </FooterLine>
             <FooterLine>
                 <StyledText>Code avaiable on GitHub</StyledText>
-                <StyledLink href="https://www.linkedin.com/in/maksym-petyak-2763ba157/">
+                <StyledLink href="https://github.com/MaksymPetyak/very-dark-mode">
                     <FontAwesomeIcon size={'lg'} icon={faGithub} />
                 </StyledLink>
             </FooterLine>

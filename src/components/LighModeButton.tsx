@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSun } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 
-const MoonContainer = styled.button`
+const Button = styled.button`
     padding: 12px 16px;
     background-color: lightyellow;
     border: 2px solid yellow;
@@ -24,9 +24,9 @@ const MoonContainer = styled.button`
 
 export const LightModeButton = ({ onClick }: { onClick: () => void }) => {
     return (
-        <MoonContainer onClick={onClick}>
+        <Button onClick={onClick}>
             <FontAwesomeIcon icon={faSun} size="2x" color={'#ffd132'} />
             <h3 style={{ color: 'black' }}>BACK TO THE LIGHT</h3>
-        </MoonContainer>
+        </Button>
     )
 }

@@ -3,7 +3,7 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import styled from 'styled-components'
 
-const MoonContainer = styled.button`
+const Button = styled.button`
     padding: 12px 16px;
     background-color: black;
     border: 2px solid #1a1a1a;
@@ -24,9 +24,9 @@ const MoonContainer = styled.button`
 
 export const DarkModeButton = ({ onClick }: { onClick: () => void }) => {
     return (
-        <MoonContainer onClick={onClick}>
+        <Button onClick={onClick}>
             <FontAwesomeIcon icon={faMoon} size="2x" color={'#ffd132'} />
             <h3 style={{ color: 'white' }}>CLICK ME</h3>
-        </MoonContainer>
+        </Button>
     )
 }

@@ -23,11 +23,10 @@ export const DayText = () => {
 
 export const NightText = () => {
     const text = `
-        Yep, it's dark. That's the thing. Don't expect to find much more on this website.\n
-        I mean, it is called "very dark mode", what more did you expect?\n
-        Even text makes more sense with dark mode.\n
-        Okay, here is a fun fact: The common placeholder "Lorem ipsum" text, even though it is in Latin, actually doesn't have any interpretable meaning.\n
-        Oh, and make sure you try and click somewhere.\n
+        Yep, it's dark. That's the thing. Don't expect to find much more on this website.
+        I mean, it is called "very dark mode", what more did you expect?
+        Okay, here is a fun fact: The common placeholder "Lorem ipsum" text, even though it is in Latin, actually doesn't have any interpretable meaning.
+        Oh, and make sure you try and click somewhere.
     `
     return <StyledText style={{ whiteSpace: 'pre-line' }}>{text}</StyledText>
 }

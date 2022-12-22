@@ -1,9 +1,12 @@
 # Very dark mode
 
 Do you like dark mode? Don't you sometimes wish that someone has made it
-<s>worse</s> darker? Well, here you go:
+<s>worse</s> darker? Well, here we go.
 
-## Made with Create React App
+Here is a short demonstration:
+![Alt Text](assets/demo.gif)
+
+### Made with Create React App
 
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app). In the project
